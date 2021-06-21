@@ -1,0 +1,7 @@
+﻿  ListaContacto.cpp
+  main.cpp
+C:\Users\Daniel\Documents\UCenfotec\EstructurasDatos1\PunterosYListas\PracticaListasYContactos\PracticaListasYContactos\Gestor.cpp(76,21): warning C4101: 'posicion': unreferenced local variable
+C:\Users\Daniel\Documents\UCenfotec\EstructurasDatos1\PunterosYListas\PracticaListasYContactos\PracticaListasYContactos\Gestor.cpp(87,13): warning C4101: 'posicion': unreferenced local variable
+  Generating Code...
+  LINK : C:\Users\Daniel\Documents\UCenfotec\EstructurasDatos1\PunterosYListas\PracticaListasYContactos\PracticaListasYContactos\Debug\PracticaListasYContactos.exe not found or not built by the last incremental link; performing full link
+  PracticaListasYContactos.vcxproj -> C:\Users\Daniel\Documents\UCenfotec\EstructurasDatos1\PunterosYListas\PracticaListasYContactos\PracticaListasYContactos\Debug\PracticaListasYContactos.exe
