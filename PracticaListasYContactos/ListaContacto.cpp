@@ -1,4 +1,5 @@
 #include <iostream>
+#include <boost/algorithm/string.hpp>
 #include "ListaContacto.h"
 #include "NodoContacto.h"
 #include "Contacto.h"
@@ -61,6 +62,7 @@ void ListaContacto::esVacia() {
 void ListaContacto::agregarOrdenado(Contacto* pContacto) {
     NodoContacto* temp = new NodoContacto();
     temp->setInfoContacto(pContacto);
+
     if (cabeza == nullptr || temp->getInfoContacto()->getNombre() < cabeza->getInfoContacto()->getNombre())
     {
         temp->setSiguiente(cabeza);
@@ -69,6 +71,7 @@ void ListaContacto::agregarOrdenado(Contacto* pContacto) {
     else
     {
         NodoContacto* aux = cabeza;
+
         while (aux->getSiguiente() != nullptr && aux->getInfoContacto()->getNombre() < temp->getInfoContacto()->getNombre())
         {
             aux = aux->getSiguiente();

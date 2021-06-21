@@ -11,20 +11,12 @@ using namespace std;
 #include "Gestor.cpp"
 
 //Daniel Zúñiga Rojas
-
+//PRACTICA EN CLASE DE LISTAS
+//Link del repositorio: https://github.com/DanielGit28/Trabajo-en-clase-ED1Cenfotec-Listas
 
 
 
 int main() {
     Gestor gestor;
     gestor.menu();
-
-    /*
-    Lista* xLista = new Lista();
-
-    for (int i = 0; i <= 10; i++) {
-        xLista->agregar(i);
-    }
-    xLista->mostrar();
-    */
 }
